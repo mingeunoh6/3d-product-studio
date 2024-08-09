@@ -36,7 +36,7 @@
 			style="display: none;"
 			on:change={handleGLBImport}
 		/>
-		<button on:click={() => document.getElementById('glb-import').click()}>GLB 불러오기</button>
+		<button on:click={() => document.getElementById(/'glb-import').click()}>GLB 불러오기</button>
 	</div>
 	<div class="sub-title">
 		<h5>사용법</h5>
@@ -52,6 +52,10 @@
 			4. 원하는 각도로 조정한 뒤 뷰포트 아래의 마스크 다운로드 버튼을 클릭하세요.<br /><br />
 
 			5. 다운로드 받은 이미지들을 ComfyUI의 인풋으로 사용하세요.<br /><br />
+			<span style="color: red;">
+				!! 새로운 제품을 업로드하려면 새로고침 후 다시 이용해주세요. !!<br /><br />
+				업로드 및 다운로드한 파일은 별도로 외부로 전송되거나 저장되지 않습니다. <br /><br /></span
+			>
 		</p>
 	</div>
 	<!-- <div class="sub-title">
