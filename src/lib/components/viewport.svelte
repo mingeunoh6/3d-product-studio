@@ -272,7 +272,7 @@
 		</div>
 	</div>
 	<div id="viewport-menu">
-		<button on:click={imageOutputRender}>Get product mask to use in ComfyUI</button>
+		<button on:click={imageOutputRender}>제품 이미지 / 제품 마스크 다운로드</button>
 	</div>
 </div>
 
