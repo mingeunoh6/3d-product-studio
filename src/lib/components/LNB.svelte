@@ -36,7 +36,7 @@
 			style="display: none;"
 			on:change={handleGLBImport}
 		/>
-		<button on:click={() => document.getElementById(/'glb-import').click()}>GLB 불러오기</button>
+		<button on:click={() => document.getElementById('glb-import').click()}>GLB 불러오기</button>
 	</div>
 	<div class="sub-title">
 		<h5>사용법</h5>
